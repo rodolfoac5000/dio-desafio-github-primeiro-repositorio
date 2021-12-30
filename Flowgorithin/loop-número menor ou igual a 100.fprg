@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rodol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-21 08:49:33 "/>
+        <attribute name="created" value="cm9kb2w7REVTS1RPUC1TSVUwVUVGOzIwMjEtMTItMjE7IjA4OjQ0OjMzICI7MjgyOA=="/>
+        <attribute name="edited" value="cm9kb2w7REVTS1RPUC1TSVUwVUVGOzIwMjEtMTItMjE7IjA4OjQ5OjMzICI7MzsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, lim" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="lim" expression="100"/>
+            <while expression="n&lt;=lim">
+                <output expression="&quot;Contagem atual:&quot; &amp; n" newline="True"/>
+                <assign variable="n" expression="n+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

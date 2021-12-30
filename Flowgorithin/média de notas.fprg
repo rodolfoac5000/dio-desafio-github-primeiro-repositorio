@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rodol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-21 08:05:04 "/>
+        <attribute name="created" value="cm9kb2w7REVTS1RPUC1TSVUwVUVGOzIwMjEtMTItMjE7IjA4OjAyOjA3ICI7MjgyMw=="/>
+        <attribute name="edited" value="cm9kb2w7REVTS1RPUC1TSVUwVUVGOzIwMjEtMTItMjE7IjA4OjA1OjA0ICI7MTsyOTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&lt;6">
+                <then>
+                    <output expression="&quot;Reprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aprovado!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
